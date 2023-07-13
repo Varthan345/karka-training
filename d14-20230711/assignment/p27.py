@@ -1,4 +1,5 @@
 current=0
+cost=10
 def add_keychains():
     add=int(input(f"now you have {current} keychains,how many keychains you want to add:"))
     total=current+add
@@ -10,13 +11,11 @@ def remove_keychains():
     print(f"now you have {total} keychains.")
     return total
 def view_order():
-    cost=10
     total=current*cost
     print(f"you have {current} keychains,\n keychains cost $10 each,\ntotal cost is ${total}")
     return total
 def checkout():
     name=input("enter your name:")
-    cost=10
     total=int(current*cost)
     print(f"you have {current} keychains.\n keychains cost $10 each,\ntotal cost is ${total}.\n thanks for your order,{name}")
     return total
