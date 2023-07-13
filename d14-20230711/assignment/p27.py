@@ -13,12 +13,13 @@ def view_order():
     cost=10
     total=current*cost
     print(f"you have {current} keychains,\n keychains cost $10 each,\ntotal cost is ${total}")
+    return total
 def checkout():
-    cost=10
     name=input("enter your name:")
+    cost=10
     total=int(current*cost)
     print(f"you have {current} keychains.\n keychains cost $10 each,\ntotal cost is ${total}.\n thanks for your order,{name}")
-
+    return total
 while True:
     choice=int(input("enter your option:"))
     if choice==1:
@@ -28,5 +29,5 @@ while True:
     elif choice==3:
          current=view_order()
     elif choice==4:
-        current=checkout()
-        break
+         current=checkout()
+         break
