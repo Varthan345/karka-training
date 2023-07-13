@@ -1,0 +1,13 @@
+print(" please enter the following informations")
+print("\n")
+first_name=input("firstname:")
+last_name=input("lastname:")
+grade=int(input("grade (9-12):"))
+#grade=int(mark)
+#if 9<=grade<=12:
+ #   print(grade)
+student_id=int(input("student ID:"))
+login=input("LOGIN:")
+gpa=float(input("GPA [O_0-4.0]:"))
+print("\n")
+print("your information:\n\t login:{:>10}\n\t ID:{:>10} \n\t name:{:>10}\n\t GPA:{:>10}\n\t grade:{:>10}".format(login,student_id,gpa,first_name,grade))

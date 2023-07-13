@@ -1,0 +1,7 @@
+name=input("hello. what is your name?\n")
+print("\n")
+age=int(input("hi,{}! how old are you?\n".format(name)))
+print("\n")
+salary=float(input("so you're {},ah? that's not old at all!\nhow such do you make.{}?:\n".format(age,name)))
+print("\n")
+print(salary,"! I hope that per hour and not per year!LOL!")
