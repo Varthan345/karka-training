@@ -1,1 +1,1 @@
-# karka-training
+# python training
